@@ -1,0 +1,9 @@
+- write.py writes multiple cplex solvers to solve same test set multiple times, using different random seeds, typically 10 times
+- provide these following arguments
+  time limit
+  random seed
+  name of the file that contains names of test files
+  test folder
+  name of the file that contains the set of removed arcs
+  file to write result
+- write script writes scripts to submit to the computing grid. 
