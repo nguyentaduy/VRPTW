@@ -1,0 +1,2 @@
+- This folder contains all test result after running cplex solvers.
+- Aggregate.py assembles results all results of a test set into one single file
