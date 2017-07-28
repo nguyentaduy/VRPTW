@@ -1,0 +1,6 @@
+- write.py writes ortools solvers into multiple files, each of which solves a portion of the 250 tests.
+- provide these following arguments:
+  Result folder to write objectives
+  Result folder to write arcs used
+  Input folder
+  number of files to write 
