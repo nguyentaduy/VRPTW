@@ -1,0 +1,14 @@
+Organization of repo:
+  In/: Solomon data
+  Test_in/: Generated data from Solomon benchmark
+  Test_in_out/: Solution of generated data (arcs information)
+  Result_in_out/: Objective of solutions
+  or-Solver/: containing a file which writes ortool solvers for generated data
+  cplex-Solver/: containing a file which writes cplex solvers for full programs and a file which writes scripts to run on server
+  Subprob-cplex-Solver/: containing a file which writes cplex solvers for reduced programs and a file which writes scripts to run on server
+  Generator.ipynb: Generator of 200-customer data
+  Generator-Hom.ipynb: Generator of 50-customer data
+  Count.ipynb: Count frequencies of arcs and choose arcs to remove (plus clustering algo)
+  Process_log.py: process log file
+  Aggregate_2.py: Aggregate test results (choose solutions among 10 times run + average runtimes)
+  Analysis.ipynb: Assemble and compare results
